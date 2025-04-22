@@ -3,7 +3,7 @@ import cv2
 import face_recognition
 import argparse
 
-def match_target_face(target_img_path, storage_folder='/home/arthurlin/workspace/Projects/face_recognition/storage', tolerance=0.3):
+def match_target_face(target_img_path, storage_folder='./storage', tolerance=0.3):
     """
     Compare the targeted face image and the images stored in database
     Args:
