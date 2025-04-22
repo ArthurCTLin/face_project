@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+temp_uploads/
+storage/
+data/
+env/
+.venv/
+.idea/
+unit_test/
