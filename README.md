@@ -1,4 +1,4 @@
-# 🧠 Face Project – CLI + API for Face Cropping & Recognition
+# 🧠 Face Project – Face Cropping & Recognition
 
 This project provides facial image processing and recognition tools via both **Command Line Interface (CLI)** and **RESTful API**, supporting:
 
