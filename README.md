@@ -1,9 +1,9 @@
-# 🧠 Face Project – Face Cropping & Recognition
+# Face Project – Face Cropping & Recognition
 
 This project provides facial image processing and recognition tools via both **Command Line Interface (CLI)** and **RESTful API**, supporting:
 
-- 🖼️ **Face Cropping**: Automatically detects and extracts all faces from an image.
-- 🔍 **Face Matching**: Searches a face image database to find whether a specific person appears.
+- **Face Cropping**: Automatically detects and extracts all faces from an image.
+- **Face Matching**: Searches a face image database to find whether a specific person appears.
 
 ---
 
