@@ -33,7 +33,7 @@ This project provides facial image processing and recognition tools via both **C
    ```
 3. Install deppendencies
    ```bash
-   $ pip install requirements.txt
+   $ pip install -r requirements.txt
    ```
 ## Implementation
 ### CLI
