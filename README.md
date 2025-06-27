@@ -41,11 +41,17 @@ This project provides facial image processing and recognition tools via both **C
    ```bash
    $ python face_tool.py crop ./data/sample.jpg
    ```
-2. Match a target face with stored faces
+   $\qquad \qquad \qquad \qquad \qquad \qquad$<img src="https://github.com/user-attachments/assets/0928c05e-33ce-4721-a12b-b202c59b8b70" width=50%>
+   
+   $\qquad \qquad \qquad \qquad$<img src="https://github.com/user-attachments/assets/af847bf3-734a-421a-80aa-1d0b24b142d8" width=70%>
+
+3. Match a target face with stored faces
    Compares the target face with faces stored in the ./storage directory and prints matched results with distances.
    ```bash
    $ python face_tool.py match ./target/target_face.jpg --storage ./storage
    ```
+   ![image](https://github.com/user-attachments/assets/536d5479-5f7d-4e66-bb26-a8f4b16e987e)
+
 ### Run on API
   ```bash
   $ uvicorn api.main:app --host 0.0.0.0 --port 8001 --reload
@@ -58,6 +64,9 @@ This project provides facial image processing and recognition tools via both **C
   
   * `POST /match/`
   Upload a target face image and compare it with a specified folder of face images.
+
+***◎ All photos are sourced from the internet.***
+
 ## Todo
 * [ ] Support .zip upload for batch processing
 * [ ] Basic frontend interface (image upload + preview)
